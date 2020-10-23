@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ColorPlay</title>
+    <!--
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.min.js">
+    </script>
+
+    <script src="js/CPutil.js"></script>
+    <script src="js/controls.js"></script>
+    <script src="js/CP.js"></script>
+    <script src="js/CPcell.js"></script>
+    <script src="js/CPcurtain.js"></script>
+    <script src="js/CPwheel.js"></script>
+
+    <script src="js/colors/colorDefs.js"></script>
+    <script src="js/colors/colorBasics.js"></script>
+    <script src="js/colors/colorUtils.js"></script>
+    <script src="js/colors/colorRGB.js"></script>
+    <script src="js/colors/colorHSV.js"></script>
+    <script src="js/colors/gradient.js"></script>
+
+    <script src="sketch_wheel.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        canvas {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <canvas id="color-picker"></canvas>
+        <div class="info">
+            <h3>Selected Color</h3>
+            <div class="selected"></div>
+        </div>
+    </div>
+</body>
+
+</html>
